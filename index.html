@@ -1,0 +1,222 @@
+<!DOCTYPE Html>
+<html>
+
+<head>
+  <title>JPZ | HOME</title>
+  <link rel="manifest" href="manifest.json">
+  
+  <link rel="stylesheet" href="jpz.css" type="text/css" />
+  <link rel="stylesheet" href="w3css.css" type="text/css">
+  <link rel="stylesheet" href="contact.css" type="text/css">
+  <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css">
+  
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyB8TWBtzI9korOJpQTuxKjL2ecyOXpuqKg",
+      authDomain: "jpztextile.firebaseapp.com",
+      databaseURL: "https://jpztextile.firebaseio.com",
+      projectId: "jpztextile",
+      storageBucket: "jpztextile.appspot.com",
+      messagingSenderId: "955330223209"
+    };
+    firebase.initializeApp(config);
+  </script> -->
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('./service-worker.js')
+        .then(function () {
+          console.log('Service Worker Registered');
+        });
+    }
+  </script>
+
+</head>
+<a name="top">
+  <table border="0" align="center" class="container" position="fixed" class="w3-content1 w3-display-container">
+    <tr>
+      <td>
+        <a href="index.html">
+          <img src="4e03cf0c-5cbf-46af-afab-754d6bc0c895.png" align="center-right">
+        </a>
+        <td vertical-align="baseline" align="left">
+          <font id="">
+            <div class="bc" id="head1">JPZ Textiles</div>
+          </font>
+          <td align="center">
+            <div>
+              <i class="fa fa-phone" aria-hidden="true"></i> &nbsp +91-79-22743285-88
+              <br>
+              <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp jpz@textile.com </div>
+    </tr>
+  </table>
+  <table border="0" align="center" position="fixed" width="90%">
+    <tr>
+      <td style-position=fixed bgcolor="white">
+        <ul>
+          <b>
+            <h4>
+              <li>
+                <a href="home.html">
+                  <img src="home.png" align="center">
+                </a>
+              </li>
+              <li>
+                <a href="about.html">About</a>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Products</a>
+                <div class="dropdown-content">
+                  <a href="fabric.html">Fabric</a>
+                  <a href="silk.html">Silk</a>
+                  <a href="cotton.html">Cotton</a>
+                  <a href="linen.html">Linen</a>
+                </div>
+                <li>
+                  <a href="achievement.html">Achievements</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                  <a href="professional.html">Our Professionals</a>
+                </li>
+            </h4>
+          </b>
+        </ul>
+      </td>
+      </div>
+      <div>
+    </tr>
+  </table>
+  <br>
+  <table height="500px" width="1200px" border="0" align="center" id="table1">
+    <tr>
+      <td align="center">
+        <font size="1200px" color="rgb(255, 255, 255)">
+          <b>Welcome
+            <br> To JPZ
+            <br>
+          </b>
+        </font>
+        <font color="rgb(51, 51, 255)">
+          <b>
+            <div class="bc">
+              WE BELIEVE IN EXCELLENCE
+              <br> WE ARE COMMITTED TO FOCUSED GROWTH IN OUR FIELD
+              <br> WE BELIEVE STRONGLY IN THE POWER OF HUMAN POTENTIAL
+              <br> WE ARE PROUD OF OUR STRONG BUSINESS ETHICS
+              <br>
+          </b>
+        </font>
+        <font color="rgb(15, 61, 15)" . We produce a wide range of customized products for our customers, meeting all of their needs.<br>
+          From initial design down to the assembly line, we take care of it all, creating sturdy, reliable goods.
+          <br> We have built up our reputation to become one of the best-known names in the industry. Take a look at what we
+          do here.
+        </font>
+        </div>
+
+    </tr>
+  </table>
+  <br>
+  <div class="w3-content w3-display-container">
+    <img class="mySlides" src="triocean-textile-polypropilene.jpg" width="100%" height="400px">
+    <img class="mySlides" src="triocean-textile-polypropilene-2.jpg" width="100%" height="400px">
+    <img class="mySlides" src="triocean-textile-polypropilene-3.jpg" width="100%" height="400px">
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = x.length
+      }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex - 1].style.display = "block";
+    }
+  </script>
+
+  <br>
+  <footer>
+    <table border="0" class="tblfooter">
+      <tr>
+        <th>
+          <h2>Products</h2>
+        </th>
+        <th>
+          <h2>Contact Us</h2>
+        </th>
+        <th>
+          <h2>Share With Us</h2>
+        </th>
+      </tr>
+      <tr>
+        <td valign="top">
+          <div align="center">
+            <p>
+              <a href="fabric.html">Fabric</a>
+            </p>
+            <p>
+              <a href="silk.html">Silk</a>
+            </p>
+            <p>
+              <a href="cotton.html">Cotton</a>
+            </p>
+            <p>
+              <a href="linen.html">Linen</a>
+            </p>
+          </div>
+        </td>
+        <td>
+          <div align="center">
+            <p>If you have idea! What are you waiting?</p>
+            JPZ Textiles & Industries Ltd.
+            <br> Gandhinagar, Gujarat (India).
+            <br> +91-79-22743285-88
+            <br>
+            <!--Marketing: fabrics@jpz.com<br>
+Garments: garments@jpz.com<br>
+Investors: investors@jpz.com-->
+            Email: jpz@textile.com
+          </div>
+        </td>
+        <td>
+          <div align="center">
+            <p>
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </p>
+            <p>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </p>
+            <p>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </p>
+            <P>
+              <i class="fa fa-pinterest" aria-hidden="true"></i>
+            </P>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <div align="center" bgcolor="grey">&copy;Copyright jpztextile.com | Terms Of Use | Disclaimer </div>
+  </footer>
+  </body>
+
+</html>

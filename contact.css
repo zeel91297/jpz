@@ -1,0 +1,33 @@
+table.bcim{
+    text-align: center;
+	background-repeat:no-repeat;
+   background-image: url("q.png")
+   
+ }
+ h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.half {
+  margin: 0.8px;
+  text-align:left
+}
+
+
+input {
+    line-height: 20px;
+	padding: 10px;
+}
+button
+ {
+ text-align: center;
+   font-size: 16px;
+  border-radius: 4px; 
+ 
+ }
+	button:hover {
+  background-color:  black; 
+  color: white;
+  }
+    
+    
