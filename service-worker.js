@@ -74,9 +74,7 @@
 
 var CACHE_NAME = 'JPZ';
 var urlsToCache = [
-    '/',
-    '/styles/main.css',
-    '/script/main.js'
+    '/'
 ];
 
 self.addEventListener('install', function (event) {
